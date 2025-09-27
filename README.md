@@ -1,8 +1,8 @@
 # Repaso Interactivo de Psicometría Aplicada II
 
-![Psicometría App Screenshot](https-your-image-link-here.png) Una aplicación web interactiva y de diseño moderno creada para ayudar a estudiantes de Psicología a estudiar y prepararse para el examen de la asignatura "Psicometría Aplicada II". La herramienta está completamente autocontenida en un único archivo HTML, es totalmente responsive y utiliza el almacenamiento local del navegador para guardar los récords del usuario.
+Una aplicación web interactiva y de diseño moderno creada para ayudar a estudiantes de Psicología a estudiar y prepararse para el examen de la asignatura "Psicometría Aplicada II". La herramienta está completamente autocontenida en un único archivo HTML, es totalmente responsive y utiliza el almacenamiento local del navegador para guardar los récords del usuario.
 
-**[Ver la aplicación en vivo](https-tu-usuario.github.io/tu-repositorio/)** ## ✨ Características Principales
+**[Ver la aplicación en vivo](https://emorito.github.io/Psicom_2oParcial025/)** ## ✨ Características Principales
 
 * **Dos Modos de Juego:**
     * **🎓 Modo Estudio:** Aprende a tu propio ritmo con feedback instantáneo y explicaciones detalladas después de cada pregunta.
