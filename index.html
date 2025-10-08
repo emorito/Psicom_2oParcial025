@@ -1,158 +1,80 @@
-/* ---------- TARJETAS TEMA (estilo referencia) ---------- */
-.topics-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
-  margin: 40px 0;
-}
-.topic-card {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--border-radius);
-  backdrop-filter: blur(15px);
-  padding: 25px;
-  text-align: center;
-  transition: var(--transition);
-  position: relative;
-  overflow: hidden;
-}
-.topic-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: -100%;
-  width: 100%; height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-  transition: left 0.6s;
-}
-.topic-card:hover::before { left: 100%; }
-.topic-card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(0,0,0,0.2); }
-.topic-card h3 { font-size: 1.4rem; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; gap: 10px; }
-.topic-card p { font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 20px; }
-.topic-actions { display: flex; gap: 10px; justify-content: center; }
-.topic-actions button {
-  flex: 1;
-  padding: 10px 12px;
-  font-size: 0.9rem;
-  border-radius: var(--border-radius-sm);
-  border: 1px solid var(--glass-border);
-  background: var(--glass-bg);
-  color: var(--text-color);
-  cursor: pointer;
-  transition: var(--transition);
-}
-.topic-actions button:hover {
-  border-color: var(--primary-color);
-  transform: scale(1.05);
-}
+<body>
+  <!-- Partículas de fondo (opcional, estilo página referencia) -->
+  <canvas id="particles" aria-hidden="true"></canvas>
 
-/* ---------- BOTÓN GLOBAL EXAMEN ---------- */
-.global-exam-btn {
-  width: 100%;
-  max-width: 400px;
-  margin: 30px auto 0;
-  padding: 18px 30px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #fff;
-  background: linear-gradient(135deg, var(--danger-color), #f87171);
-  border: none;
-  border-radius: var(--border-radius-sm);
-  cursor: pointer;
-  transition: var(--transition);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3);
-}
-.global-exam-btn:hover { transform: scale(1.02) translateY(-3px); }
+  <!-- Contenedor principal -->
+  <div class="container" id="main-container">
+    <!-- Header -->
+    <div class="header-bar">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
 
-/* ---------- MODALES ---------- */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  backdrop-filter: blur(5px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  animation: fadeIn 0.3s ease;
-}
-.modal-content {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--border-radius);
-  padding: 30px;
-  max-width: 800px;
-  width: 90%;
-  max-height: 90vh;
-  overflow-y: auto;
-  backdrop-filter: blur(20px);
-  animation: modalSlideIn 0.4s ease;
-}
-.modal-content.narrow { max-width: 400px; }
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.modal-header h3 { font-size: 1.3rem; }
-.close-modal {
-  background: var(--danger-color);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 36px; height: 36px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-.close-modal:hover { transform: rotate(90deg) scale(1.1); }
+    <!-- Título -->
+    <h1><i class="fas fa-brain"></i> Psicometría Aplicada II</h1>
+    <p class="subtitle">Sistema de repaso interactivo y adaptativo</p>
 
-/* ---------- SELECTOR CANTIDAD PRÁCTICA ---------- */
-.quantity-selector {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-}
-.quantity-selector button {
-  width: 60px; height: 60px;
-  font-size: 1.4rem;
-  font-weight: 700;
-  border-radius: var(--border-radius-sm);
-  border: 2px solid var(--glass-border);
-  background: var(--glass-bg);
-  color: var(--text-color);
-  cursor: pointer;
-  transition: var(--transition);
-}
-.quantity-selector button:hover {
-  border-color: var(--primary-color);
-  transform: scale(1.1);
-}
+    <!-- Tarjetas de tema -->
+    <div class="topics-grid" id="topics-grid">
+      <!-- Se llenarán dinámicamente -->
+    </div>
 
-/* ---------- FLASHCARDS NAV ---------- */
-.flash-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-.flash-nav button {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  border-radius: 50%;
-  width: 40px; height: 40px;
-  cursor: pointer;
-  transition: var(--transition);
-}
-.flash-nav button:hover { background: var(--primary-color); color: #fff; }
-#flash-counter { font-weight: 600; }
+    <!-- Botón global Modo Examen -->
+    <button id="global-exam-btn" class="global-exam-btn">
+      <i class="fas fa-stopwatch"></i> Modo Examen (15 ítems mixtos)
+    </button>
+  </div>
 
-/* ---------- PARTÍCULAS (opcional) ---------- */
-#particles {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-}
+  <!-- Modal de video -->
+  <div id="video-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="video-title"></h3>
+        <button class="close-modal" aria-label="Cerrar video"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="video-embed"></div>
+    </div>
+  </div>
+
+  <!-- Modal de Flash Cards -->
+  <div id="flash-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="flash-title"></h3>
+        <button class="close-modal" aria-label="Cerrar flashcards"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="flash-container"></div>
+      <div class="flash-nav">
+        <button id="flash-prev"><i class="fas fa-chevron-left"></i></button>
+        <span id="flash-counter">1 / 5</span>
+        <button id="flash-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Selector cantidad práctica (modal pequeño) -->
+  <div id="practice-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-content narrow">
+      <div class="modal-header">
+        <h3>¿Cuántas preguntas quieres practicar?</h3>
+        <button class="close-modal" aria-label="Cerrar selector"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="quantity-selector">
+        <button data-q="3">3</button>
+        <button data-q="5">5</button>
+        <button data-q="8">8</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pantallas de quiz y resultados (misma estructura que ya tenías) -->
+  <div id="quiz-screen" class="hidden"></div>
+  <div id="results-screen" class="hidden"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/particles.min.js"></script>  <!-- opcional -->
+  <script src="js/main.js"></script>
+</body>
