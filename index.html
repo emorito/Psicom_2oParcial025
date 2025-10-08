@@ -79,9 +79,37 @@
     </div>
   </div>
 
-  <!-- Pantallas de quiz y resultados (vacías por ahora) -->
-  <div id="quiz-screen" class="hidden"></div>
-  <div id="results-screen" class="hidden"></div>
+<!-- Pantalla del quiz -->
+<div id="quiz-screen" class="hidden">
+  <div class="quiz-header">
+    <span id="progress-text"><i class="fas fa-list-ol"></i> Pregunta 1 / 6</span>
+    <div id="timer-container"><i class="fas fa-hourglass-half"></i> <span id="timer">30</span>s</div>
+  </div>
+  <div class="progress-bar-container"><div id="progress-bar"></div></div>
+  <div id="question-container"></div>
+  <div id="feedback-container" class="hidden"></div>
+  <button id="next-btn" class="hidden">Siguiente <i class="fas fa-chevron-right"></i></button>
+</div>
+
+<!-- Pantalla de resultados -->
+<div id="results-screen" class="hidden">
+  <h2 id="results-title">¡Repaso completado!</h2>
+  <p id="score-text"><i class="fas fa-check-circle icon"></i> Tu puntaje: 0 de 6</p>
+  <div class="stats-container">
+    <div class="stat-card"><span class="stat-value" id="accuracy-stat">0%</span><span class="stat-label">Precisión</span></div>
+    <div class="stat-card"><span class="stat-value" id="time-stat">0:00</span><span class="stat-label">Tiempo Total</span></div>
+    <div class="stat-card"><span class="stat-value" id="streak-stat">0</span><span class="stat-label">Racha Máxima</span></div>
+  </div>
+  <div id="recommendations" class="hidden">
+    <h3><i class="fas fa-lightbulb"></i> Áreas para reforzar</h3>
+    <ul id="recommendations-list"></ul>
+  </div>
+  <div class="results-buttons">
+    <button id="review-errors-btn" class="hidden"><i class="fas fa-search"></i> Revisar Errores</button>
+    <button id="download-pdf-btn"><i class="fas fa-file-pdf"></i> Descargar resultados en PDF</button>
+    <button id="restart-btn"><i class="fas fa-redo"></i> Volver a empezar</button>
+  </div>
+</div>
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -89,3 +117,4 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+
