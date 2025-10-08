@@ -1,0 +1,169 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué es la baremación en psicometría?",
+    "options": ["Asignar puntajes brutos", "Crear normas para comparar puntajes", "Fijar puntos de corte absolutos", "Traducir ítems a otro idioma"],
+    "answer": "Crear normas para comparar puntajes",
+    "explanation": "La baremación transforma puntajes brutos en puntajes normados usando una muestra normativa relevante y representativa.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "easy",
+    "icon": "📊"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál es la función de una muestra normativa?",
+    "options": ["Ser el criterio absoluto", "Servir de referencia comparativa", "Eliminar sesgos culturales", "Definir el formato de ítems"],
+    "answer": "Servir de referencia comparativa",
+    "explanation": "La muestra normativa provee el marco de comparación para interpretar puntajes individuales de forma relativa.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "easy",
+    "icon": "👥"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál es la fórmula de la puntuación Z?",
+    "options": ["Z=DE/Media", "Z=(X−Media)/DE", "Z=(Media−X)×DE", "Z=Media/DE−X"],
+    "answer": "Z=(X−Media)/DE",
+    "explanation": "Z expresa cuántas desviaciones estándar se sitúa un puntaje respecto de la media de la norma.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "🧮"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué relación aproximada vincula Z con estaninos?",
+    "options": ["St=2+5Z", "St=9−Z", "St=5+2Z", "St=1+Z/2"],
+    "answer": "St=5+2Z",
+    "explanation": "Los estaninos resumen la posición relativa; una conversión práctica es Estanino = 5 + 2 × Z (luego se redondea 1–9).",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué riesgo introduce la restricción de rango?",
+    "options": ["Mayor validez externa", "Media más alta y menor DE", "Menor sesgo de selección", "Curvas ROC más precisas"],
+    "answer": "Media más alta y menor DE",
+    "explanation": "El prefiltrado eleva la media y reduce la variabilidad, sesgando normas y afectando interpretaciones.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "🚧"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "La estandarización se caracteriza por",
+    "options": ["Juicio experto estructurado", "Comparación relativa a un grupo", "Estimación de Z y estaninos", "Muestras siempre genéricas"],
+    "answer": "Juicio experto estructurado",
+    "explanation": "Estandarizar fija puntos de corte por métodos judicativos (p. ej., Angoff, Bookmark) con jueces entrenados.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "hard",
+    "icon": "⚖️"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "Tipificación es el proceso general de crear una ________ o estándar.",
+    "answer": "norma",
+    "explanation": "Tipificación abarca baremación (referida a normas) y estandarización (referida a criterio).",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "easy",
+    "icon": "🧭"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "En ROC, el Índice de ________ maximiza Sensibilidad+Especificidad−1.",
+    "answer": "Youden",
+    "explanation": "El índice de Youden identifica el punto de corte con mejor equilibrio entre verdaderos positivos y negativos.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "📉"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "El método ________ ordena ítems por dificultad (TRI) y coloca un marcador.",
+    "answer": "Bookmark",
+    "explanation": "Bookmark posiciona un corte en la escala revisando ítems ordenados por dificultad estimada.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "🔖"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona concepto y función en referencia y criterio.",
+    "answer": {
+      "Baremación": "Comparación relativa con una muestra normativa",
+      "Estandarización": "Fijar puntos de corte absolutos por juicio",
+      "Tipificación": "Proceso general de crear una norma o estándar"
+    },
+    "explanation": "Cada término ocupa un rol distinto en la interpretación de puntajes.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "easy",
+    "icon": "🔗"
+  },
+  {
+    "type": "association",
+    "question": "Vincula tipos de normas con su alcance.",
+    "answer": {
+      "Genéricas": "Grupo amplio y no específico",
+      "Específicas": "Delimitadas por sector o rol",
+      "Personalizadas": "Hechas a medida para un proyecto"
+    },
+    "explanation": "La elección depende del propósito y del contexto de uso.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "easy",
+    "icon": "🗂️"
+  },
+  {
+    "type": "association",
+    "question": "Asocia factores de la muestra normativa con ejemplos.",
+    "answer": {
+      "Endógenos": "Edad, género",
+      "Exógenos": "Educación, sector",
+      "Examen": "Formato y contexto",
+      "Temporales": "Cohorte o fecha"
+    },
+    "explanation": "Estos factores garantizan relevancia y representatividad de la norma.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "🧩"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona métodos centrados en el test con su rasgo clave.",
+    "answer": {
+      "Angoff": "Probabilidad de acierto del candidato mínimo",
+      "Nedelsky": "Eliminación de distractores",
+      "Ebel": "Matriz de relevancia×dificultad",
+      "Bookmark": "Ítems ordenados por dificultad"
+    },
+    "explanation": "Cada método estructura el juicio de expertos de modo distinto.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "medium",
+    "icon": "🧮"
+  },
+  {
+    "type": "association",
+    "question": "Asocia métricas ROC con su definición.",
+    "answer": {
+      "Sensibilidad": "Verdaderos positivos sobre positivos reales",
+      "Especificidad": "Verdaderos negativos sobre negativos reales",
+      "Punto cercano a (0,1)": "Mínima distancia a la perfección"
+    },
+    "explanation": "Las métricas ROC ayudan a seleccionar cortes con balance deseado.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "hard",
+    "icon": "📊"
+  },
+  {
+    "type": "association",
+    "question": "Buenas prácticas y su propósito principal.",
+    "answer": {
+      "Documentar el proceso": "Defendibilidad técnica y legal",
+      "Múltiples evidencias": "Aumentar validez del estándar",
+      "Revisión periódica": "Mantener relevancia y equidad"
+    },
+    "explanation": "Estas pautas fortalecen la calidad del establecimiento de estándares.",
+    "source": "Apuntes-Baremacion.pdf",
+    "difficulty": "hard",
+    "icon": "✅"
+  }
+]

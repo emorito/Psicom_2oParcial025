@@ -1,0 +1,119 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "Según la concepción moderna, ¿qué se valida en psicometría?",
+    "options": ["El test en sí mismo", "Las interpretaciones y usos de las puntuaciones", "La estructura factorial del instrumento", "El procedimiento de aplicación"],
+    "answer": "Las interpretaciones y usos de las puntuaciones",
+    "explanation": "La validez no es una propiedad del test, sino de las inferencias y decisiones que se derivan de sus resultados en un contexto específico.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "easy",
+    "icon": "🎯"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué aporte realizó Samuel Messick al concepto de validez?",
+    "options": ["Propuso la validez de criterio", "Unificó los tipos de validez en un marco único", "Creó el coeficiente de validez", "Desarrolló el análisis factorial confirmatorio"],
+    "answer": "Unificó los tipos de validez en un marco único",
+    "explanation": "Messick integró las evidencias de contenido, criterio y constructo en un modelo unificado que incluye también las consecuencias sociales del uso del test.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "easy",
+    "icon": "🧩"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué representa el Argumento de Interpretación y Uso (IUA) de Kane?",
+    "options": ["Un modelo de fiabilidad", "Un marco estadístico descriptivo", "Una red de inferencias que debe sustentarse con evidencia", "Una escala de validación estandarizada"],
+    "answer": "Una red de inferencias que debe sustentarse con evidencia",
+    "explanation": "Kane propuso que validar es construir y sostener un argumento lógico y empírico sobre cómo las puntuaciones se interpretan y utilizan.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "🧠"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál de las siguientes inferencias forma parte del IUA?",
+    "options": ["Inferencia de Muestra", "Inferencia de Extrapolación", "Inferencia de Medición Directa", "Inferencia de Calibración"],
+    "answer": "Inferencia de Extrapolación",
+    "explanation": "La inferencia de Extrapolación conecta la puntuación del universo con criterios externos, y requiere evidencia de relaciones con otras variables.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "🔗"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál es la base evidencial de la validez según Messick?",
+    "options": ["La aplicación estandarizada del test", "La justificación empírica y teórica de las inferencias", "El juicio experto de los evaluadores", "El control de la muestra normativa"],
+    "answer": "La justificación empírica y teórica de las inferencias",
+    "explanation": "Messick distinguió entre una base evidencial (datos y teoría que sustentan la validez) y una base consecuencial (impacto social del test).",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "📚"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "La validez de constructo es el concepto _______ que integra todas las fuentes de evidencia.",
+    "answer": "central",
+    "explanation": "La validez de constructo unifica las demás evidencias bajo un marco teórico coherente.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "easy",
+    "icon": "🏗️"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "La evidencia de estructura interna suele obtenerse mediante análisis _______ o _______.",
+    "answer": "factorial exploratorio; factorial confirmatorio",
+    "explanation": "Estas técnicas permiten comprobar si la estructura empírica del test se ajusta a la teórica.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "La evidencia de _______ verifica que los procesos cognitivos implicados sean los que el test pretende medir.",
+    "answer": "procesos de respuesta",
+    "explanation": "Busca confirmar que los examinados usan los procesos mentales esperados según la teoría del constructo.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "🧩"
+  },
+  {
+    "type": "association",
+    "question": "Asocia cada tipo de evidencia con su propósito principal.",
+    "answer": {
+      "Contenido": "Evalúa la representatividad de los ítems respecto al dominio teórico.",
+      "Estructura interna": "Comprueba la coherencia y dimensionalidad del test.",
+      "Relación con otras variables": "Analiza convergencia, discriminación y validez predictiva."
+    },
+    "explanation": "Cada fuente de evidencia contribuye a justificar diferentes inferencias dentro del argumento de validez.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "🧮"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona ámbitos aplicados con su enfoque de validez relevante.",
+    "answer": {
+      "Selección de personal": "Validez predictiva e incremental",
+      "Diagnóstico clínico": "Validez ecológica",
+      "Certificación profesional": "Validez de criterio y consecuencias"
+    },
+    "explanation": "Cada contexto exige diferentes tipos de evidencia para justificar el uso de un test.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "hard",
+    "icon": "⚖️"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona cada inferencia del modelo de Kane con su base psicométrica.",
+    "answer": {
+      "Puntuación": "Objetividad y precisión del cálculo",
+      "Generalización": "Fiabilidad y consistencia",
+      "Extrapolación": "Relación con criterios externos",
+      "Implicación": "Consecuencias de las decisiones"
+    },
+    "explanation": "Cada eslabón del argumento de validación requiere evidencia empírica y teórica específica.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "hard",
+    "icon": "🔍"
+  }
+]

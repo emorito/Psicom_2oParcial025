@@ -1,0 +1,165 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál es el objetivo principal de la Teoría de Respuesta a los Ítems (TRI)?",
+    "options": ["Analizar la puntuación total de un test", "Modelar la relación entre rasgo latente y respuestas", "Determinar la media de los ítems", "Calcular el error típico de medida"],
+    "answer": "Modelar la relación entre rasgo latente y respuestas",
+    "explanation": "La TRI busca modelar cómo el nivel del rasgo latente (θ) influye en la probabilidad de responder correctamente a cada ítem.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "📊"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué símbolo se utiliza para representar el rasgo latente en la TRI?",
+    "options": ["λ", "θ", "ρ", "δ"],
+    "answer": "θ",
+    "explanation": "El rasgo latente o habilidad no observable se representa con la letra griega θ (theta).",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "🔤"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué supuesto establece que las respuestas son independientes una vez controlado el rasgo latente?",
+    "options": ["Unidimensionalidad", "Independencia local", "Invarianza de parámetros", "Equidad de ítems"],
+    "answer": "Independencia local",
+    "explanation": "La independencia local supone que, controlando por θ, las respuestas a distintos ítems no se influyen entre sí.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "⚙️"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué parámetro indica la dificultad del ítem en la TRI?",
+    "options": ["a", "b", "c", "d"],
+    "answer": "b",
+    "explanation": "El parámetro b representa la localización o dificultad del ítem, es decir, el nivel de θ con 50% de acierto.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "📍"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál de los siguientes modelos incluye el parámetro de pseudoacierto (c)?",
+    "options": ["1PL", "2PL", "3PL", "Rasch"],
+    "answer": "3PL",
+    "explanation": "El modelo 3PL agrega el parámetro c al modelo de dificultad (b) y discriminación (a), capturando el acierto por azar.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🎲"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué característica distingue a la TRI de la Teoría Clásica de los Tests (TCT)?",
+    "options": ["Evalúa la fiabilidad global del test", "Depende de la muestra de personas", "Analiza ítem por ítem", "No considera el error de medida"],
+    "answer": "Analiza ítem por ítem",
+    "explanation": "La TRI modela el comportamiento individual de cada ítem, a diferencia de la TCT que se centra en la puntuación total.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🧩"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "El parámetro que mide cuán bien un ítem distingue entre niveles cercanos de habilidad se llama ________.",
+    "answer": "discriminación",
+    "explanation": "El parámetro a mide la pendiente de la CCI y la capacidad del ítem para discriminar entre individuos.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🪜"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "La representación gráfica que muestra la probabilidad de acierto según θ se llama ________.",
+    "answer": "Curva Característica del Ítem",
+    "explanation": "La CCI representa cómo varía la probabilidad de acierto en función del nivel del rasgo latente.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "En los Tests Adaptativos Informatizados, los ítems se seleccionan en función del nivel estimado de ________.",
+    "answer": "θ",
+    "explanation": "Los TAI eligen ítems que maximizan la información según el θ estimado en cada momento del test.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "hard",
+    "icon": "💻"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona cada parámetro del modelo con su significado psicométrico.",
+    "answer": {
+      "a": "Discriminación: pendiente de la curva",
+      "b": "Dificultad: localización del ítem",
+      "c": "Pseudoacierto: probabilidad de azar"
+    },
+    "explanation": "Cada parámetro captura una característica distinta del comportamiento del ítem dentro de la TRI.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "⚖️"
+  },
+  {
+    "type": "association",
+    "question": "Asocia cada modelo de TRI con los parámetros que utiliza.",
+    "answer": {
+      "1PL": "Solo b (dificultad)",
+      "2PL": "a y b",
+      "3PL": "a, b y c"
+    },
+    "explanation": "Los modelos se diferencian según el número de parámetros que describen la función de respuesta del ítem.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🧮"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona el tipo de modelo con el formato del ítem.",
+    "answer": {
+      "Modelos dicotómicos": "Respuestas binarias (correcto/incorrecto)",
+      "Modelos politómicos": "Respuestas con categorías ordenadas"
+    },
+    "explanation": "La TRI adapta su modelo según el tipo de respuesta: dicotómica o politómica.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🧾"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona las funciones de información con su propósito.",
+    "answer": {
+      "FII": "Mide la precisión de cada ítem",
+      "FIT": "Mide la precisión total del test"
+    },
+    "explanation": "Ambas funciones cuantifican la precisión de la medición, pero a distinto nivel de agregación.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🔎"
+  },
+  {
+    "type": "association",
+    "question": "Vincula cada ventaja de la TRI con su descripción.",
+    "answer": {
+      "Invarianza de parámetros": "Propiedades del ítem no dependen de la muestra",
+      "Precisión específica": "Error de medición varía según el nivel de θ",
+      "Eficiencia": "Permite tests más cortos y precisos"
+    },
+    "explanation": "Estas ventajas consolidan la superioridad de la TRI frente a la TCT.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "hard",
+    "icon": "🚀"
+  },
+  {
+    "type": "association",
+    "question": "Asocia cada aplicación práctica de la TRI con su función.",
+    "answer": {
+      "TAI": "Selecciona ítems en tiempo real",
+      "CCI": "Representa gráficamente el comportamiento del ítem",
+      "FIT": "Evalúa la precisión global del test"
+    },
+    "explanation": "La TRI ofrece herramientas aplicadas que mejoran la eficiencia y la precisión de la medición.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "hard",
+    "icon": "📘"
+  }
+]

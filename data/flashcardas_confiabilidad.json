@@ -1,0 +1,72 @@
+[
+  {
+    "front": "¿Qué es la confiabilidad en la TCT?",
+    "back": "Grado en que las puntuaciones están libres de error y son consistentes. Es una propiedad de las puntuaciones en una muestra y contexto, no del test en sí.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "easy",
+    "icon": "🎯"
+  },
+  {
+    "front": "Modelo básico: relación entre X, T y E",
+    "back": "La TCT postula X = T + E. X es observada, T es el nivel real del rasgo y E es el error aleatorio que desvía X de T.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "easy",
+    "icon": "📏"
+  },
+  {
+    "front": "Confiabilidad como proporción de varianza",
+    "back": "ρ = σ²T / σ²X = 1 − (σ²E/σ²X). Valores cercanos a 1 indican poca varianza de error y alta consistencia.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "easy",
+    "icon": "📊"
+  },
+  {
+    "front": "Test–retest: ¿qué estima y qué limita?",
+    "back": "Correlaciona el mismo test en dos momentos. Capta estabilidad temporal y condiciones de aplicación; intervalos muy cortos inflan por práctica, muy largos mezclan cambio real.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "medium",
+    "icon": "🔁"
+  },
+  {
+    "front": "Formas paralelas: foco del error estimado",
+    "back": "Correlaciona dos versiones equivalentes. Evalúa error por muestreo de contenido del test. Ideal si ambas formas representan el mismo dominio.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "medium",
+    "icon": "🧪"
+  },
+  {
+    "front": "Alfa de Cronbach: fortalezas y cautelas",
+    "back": "Promedio de todas las divisiones por mitades. Fácil y popular, pero asume tau-equivalencia y unidimensionalidad; puede subestimar o inflarse con errores correlacionados.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "medium",
+    "icon": "🅰️"
+  },
+  {
+    "front": "Omega de McDonald: ¿por qué preferirlo?",
+    "back": "Basado en modelo congenérico (AFC). Usa cargas y errores específicos; estima mejor la confiabilidad cuando los ítems tienen diferentes cargas.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "medium",
+    "icon": "🧠"
+  },
+  {
+    "front": "Factores que influyen en la confiabilidad",
+    "back": "Mayor longitud y variabilidad muestral suelen aumentar ρ. Ítems muy fáciles/difíciles reducen varianza; calidad y homogeneidad de ítems son claves.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "medium",
+    "icon": "⚙️"
+  },
+  {
+    "front": "Tests de velocidad: por qué alfa es inadecuado",
+    "back": "Los no respondidos al final inducen correlaciones espurias. Usar límites inferiores de Guttman (L', L'') u otros enfoques específicos para velocidad.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "hard",
+    "icon": "⏱️"
+  },
+  {
+    "front": "Confiabilidad en TRI: información y SEM(θ)",
+    "back": "La precisión varía con θ. La función de información del test (TIF) define SEM(θ)=1/√TIF(θ). Un test es más confiable donde TIF es mayor.",
+    "source": "Apuntes-Confiabilidad.pdf",
+    "difficulty": "hard",
+    "icon": "📈"
+  }
+]

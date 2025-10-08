@@ -1,0 +1,72 @@
+[
+  {
+    "front": "¿Qué se valida realmente en psicometría según la teoría moderna?",
+    "back": "No se valida el test, sino las interpretaciones y los usos de las puntuaciones en un contexto y propósito específicos.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "easy",
+    "icon": "🎯"
+  },
+  {
+    "front": "Aporte principal de Samuel Messick a la teoría de la validez",
+    "back": "Integró los antiguos tipos de validez en un modelo unificado, incorporando tanto la base evidencial como las consecuencias del uso del test.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "easy",
+    "icon": "🧩"
+  },
+  {
+    "front": "Regla TVOTT (“Thou shalt not refer to the validity of the test”)",
+    "back": "Indica que la validez no es del test en sí, sino de las inferencias que se hacen a partir de sus resultados.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "easy",
+    "icon": "📜"
+  },
+  {
+    "front": "Modelo unificado de Messick: dos pilares centrales",
+    "back": "Base evidencial (justificación teórica y empírica) y base consecuencial (impacto ético y social del uso del test).",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "⚖️"
+  },
+  {
+    "front": "¿Qué propone el enfoque de Kane sobre la validez?",
+    "back": "Construir un Argumento de Interpretación y Uso (IUA) que articule las inferencias y evidencias que justifican el uso del test.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "🔗"
+  },
+  {
+    "front": "Inferencias principales del modelo de Kane",
+    "back": "Puntuación, Generalización, Extrapolación e Implicación/Decisión, cada una respaldada por diferentes fuentes de evidencia.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "🧠"
+  },
+  {
+    "front": "Evidencia basada en el contenido del test",
+    "back": "Analiza si los ítems son relevantes y representativos del dominio del constructo. Se obtiene mediante juicios de expertos.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "📚"
+  },
+  {
+    "front": "Evidencia de estructura interna",
+    "back": "Evalúa si las relaciones entre ítems y factores reflejan la estructura teórica del constructo (AFE, AFC, TRI).",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "front": "Evidencia basada en la relación con otras variables",
+    "back": "Incluye validez convergente, discriminante y de criterio. Examina cómo las puntuaciones se relacionan con medidas externas.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "hard",
+    "icon": "🔍"
+  },
+  {
+    "front": "Evidencia basada en las consecuencias de la evaluación",
+    "back": "Evalúa los efectos sociales, intencionados o no, del uso del test, para garantizar justicia y equidad en la medición.",
+    "source": "Apuntes-Validez.pdf",
+    "difficulty": "hard",
+    "icon": "🌍"
+  }
+]

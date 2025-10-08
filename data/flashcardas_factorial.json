@@ -1,0 +1,72 @@
+[
+  {
+    "front": "¿Qué es el análisis factorial?",
+    "back": "Es una técnica estadística que busca explicar las correlaciones entre variables observadas mediante un número menor de factores latentes o constructos subyacentes.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "📊"
+  },
+  {
+    "front": "¿Quién desarrolló la idea del 'factor g'?",
+    "back": "Charles Spearman, en 1904, propuso el 'factor g' como una inteligencia general que explica las correlaciones positivas entre diferentes habilidades cognitivas.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "🧠"
+  },
+  {
+    "front": "¿Qué es una carga factorial?",
+    "back": "Es la correlación entre una variable observada y un factor latente. Cuanto mayor es la carga, mejor representa la variable al factor.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "📈"
+  },
+  {
+    "front": "¿Qué representa la comunalidad?",
+    "back": "La comunalidad es la proporción de la varianza de una variable que es explicada por los factores comunes. Indica cuánto comparte con otras variables.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🔗"
+  },
+  {
+    "front": "¿Qué objetivo tiene la rotación factorial?",
+    "back": "Facilitar la interpretación de los factores al buscar una estructura simple donde cada variable cargue principalmente en un solo factor.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🎯"
+  },
+  {
+    "front": "¿Qué diferencia al AFE del AFC?",
+    "back": "El Análisis Factorial Exploratorio (AFE) busca descubrir la estructura subyacente, mientras que el Análisis Factorial Confirmatorio (AFC) prueba una estructura teórica predefinida.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "⚖️"
+  },
+  {
+    "front": "¿Qué son los factores latentes?",
+    "back": "Son variables no observables que explican las correlaciones entre las variables observadas. Ejemplo: 'inteligencia verbal' o 'ansiedad'.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🪄"
+  },
+  {
+    "front": "¿Cuál fue el aporte de Thurstone al análisis factorial?",
+    "back": "Propuso el modelo de las 'habilidades mentales primarias', introduciendo la idea de múltiples factores y la técnica de rotación para obtener estructuras simples.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🧩"
+  },
+  {
+    "front": "¿Para qué se usa el análisis factorial en psicometría?",
+    "back": "Se usa para reducir datos, desarrollar teorías y validar instrumentos de medición, asegurando que los ítems midan correctamente los constructos teóricos.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "hard",
+    "icon": "📚"
+  },
+  {
+    "front": "¿Qué significa 'estructura simple' en el contexto factorial?",
+    "back": "Es un arreglo en el que cada variable tiene una carga alta en un solo factor y bajas en los demás, lo que hace la interpretación más clara y precisa.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "hard",
+    "icon": "🔬"
+  }
+]

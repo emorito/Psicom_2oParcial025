@@ -1,0 +1,72 @@
+[
+  {
+    "front": "¿Qué diferencia esencial tiene la TRI frente a la TCT?",
+    "back": "La TRI se centra en el comportamiento de cada ítem y modela la relación entre el rasgo latente (θ) y la probabilidad de respuesta, mientras que la TCT se basa en las puntuaciones totales.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "📊"
+  },
+  {
+    "front": "Supuesto de Unidimensionalidad",
+    "back": "Afirma que todas las respuestas a los ítems están influenciadas por un único rasgo latente dominante, representado por θ.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "🧭"
+  },
+  {
+    "front": "Supuesto de Independencia Local",
+    "back": "Una vez controlado el nivel de θ, las respuestas a distintos ítems son independientes entre sí; no existe influencia residual entre ellos.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "easy",
+    "icon": "⚙️"
+  },
+  {
+    "front": "¿Qué representa el parámetro b en la TRI?",
+    "back": "El parámetro b indica la dificultad del ítem: es el nivel de habilidad (θ) en el que la probabilidad de respuesta correcta es del 50%.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "📍"
+  },
+  {
+    "front": "Función del parámetro a (discriminación)",
+    "back": "Mide cuán bien un ítem distingue entre individuos con niveles cercanos de θ; valores altos implican mayor poder discriminativo.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🪜"
+  },
+  {
+    "front": "Significado del parámetro c (pseudoacierto)",
+    "back": "Es la probabilidad mínima de acierto al azar. En ítems de opción múltiple, suele aproximarse al inverso del número de alternativas.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🎲"
+  },
+  {
+    "front": "Curva Característica del Ítem (CCI)",
+    "back": "Representa gráficamente la probabilidad de acierto según el nivel de θ. Su forma depende de los parámetros a, b y c del ítem.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "front": "Función de Información del Ítem (FII)",
+    "back": "Indica la precisión local de un ítem en cada punto de θ. A mayor información, menor error de estimación en esa región del continuo.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "medium",
+    "icon": "🔎"
+  },
+  {
+    "front": "¿Qué es la Función de Información del Test (FIT)?",
+    "back": "Es la suma de las funciones de información de todos los ítems del test. Mide la precisión total del instrumento en cada nivel de habilidad.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "hard",
+    "icon": "📚"
+  },
+  {
+    "front": "Tests Adaptativos Informatizados (TAI)",
+    "back": "Utilizan la TRI para seleccionar ítems en tiempo real según el nivel de habilidad estimado, logrando evaluaciones más breves y precisas.",
+    "source": "Apuntes-TRI.pdf",
+    "difficulty": "hard",
+    "icon": "💻"
+  }
+]

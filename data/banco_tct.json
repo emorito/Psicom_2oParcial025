@@ -1,0 +1,154 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál es la ecuación fundamental de la Teoría Clásica de los Tests?",
+    "options": ["X = T × E", "X = T + E", "E = X + T", "T = X - E"],
+    "answer": "X = T + E",
+    "explanation": "El modelo lineal clásico establece que la puntuación observada (X) es la suma de la puntuación verdadera (T) y el error de medición (E).",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "📏"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué representa la puntuación verdadera (T) en la TCT?",
+    "options": ["La puntuación empírica obtenida", "El promedio hipotético de puntuaciones bajo condiciones idénticas", "El error sistemático de medición", "La varianza residual del test"],
+    "answer": "El promedio hipotético de puntuaciones bajo condiciones idénticas",
+    "explanation": "La puntuación verdadera se define como el valor esperado de las puntuaciones observadas si se aplicaran infinitas formas paralelas del test.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "🎯"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué se asume sobre la media del error de medición en la TCT?",
+    "options": ["Es positiva", "Es negativa", "Es igual a cero", "Depende del test"],
+    "answer": "Es igual a cero",
+    "explanation": "El modelo supone que los errores de medición son aleatorios y se anulan entre sí en promedio.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "⚖️"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué mide el coeficiente de confiabilidad (ρ_XX’)?",
+    "options": ["La precisión de cada ítem", "La proporción de varianza verdadera en la puntuación total", "La diferencia entre tests paralelos", "La magnitud del error de estimación"],
+    "answer": "La proporción de varianza verdadera en la puntuación total",
+    "explanation": "La confiabilidad representa la proporción de la varianza total atribuible a diferencias reales en el rasgo medido.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📊"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Si un test tiene una confiabilidad de 0.90, ¿qué implica?",
+    "options": ["El 90% de la varianza se debe al error", "El 90% de la varianza refleja diferencias verdaderas", "El 90% de los ítems son válidos", "El 90% del error se explica por T"],
+    "answer": "El 90% de la varianza refleja diferencias verdaderas",
+    "explanation": "Una confiabilidad de 0.90 indica que la mayor parte de la variabilidad de las puntuaciones es atribuible a la puntuación verdadera, no al error.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué propósito tiene la fórmula de Spearman-Brown?",
+    "options": ["Calcular el EEM", "Predecir la confiabilidad al cambiar la longitud del test", "Medir el error sistemático", "Ajustar la dificultad del test"],
+    "answer": "Predecir la confiabilidad al cambiar la longitud del test",
+    "explanation": "La fórmula de Spearman-Brown estima cómo cambia la confiabilidad si el test se alarga o acorta.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "🧮"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "La ecuación del modelo clásico es ________, donde X es la puntuación observada.",
+    "answer": "X = T + E",
+    "explanation": "El modelo lineal clásico de la TCT establece la relación aditiva entre la puntuación observada, verdadera y el error.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "🧩"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "El Error Estándar de Medición (EEM) se calcula a partir de la desviación estándar y la ________.",
+    "answer": "confiabilidad",
+    "explanation": "El EEM usa la desviación estándar de las puntuaciones y el coeficiente de confiabilidad para estimar el margen de error individual.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📐"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "Según la TCT, los errores de medición no correlacionan con la ________.",
+    "answer": "puntuación verdadera",
+    "explanation": "El modelo asume independencia entre la puntuación verdadera y el error de medición (ρ(T,E)=0).",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "🔗"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona cada componente del modelo con su descripción.",
+    "answer": {
+      "X": "Puntuación observada, medible",
+      "T": "Puntuación verdadera, nivel real del rasgo",
+      "E": "Error aleatorio de medición"
+    },
+    "explanation": "Estos tres componentes constituyen el modelo lineal básico X = T + E.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "📘"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona los supuestos del modelo con su significado.",
+    "answer": {
+      "ℰ(e)=0": "El promedio de los errores es cero",
+      "ρ(T,E)=0": "Error y puntuación verdadera son independientes",
+      "ρ(E1,E2)=0": "Errores de tests paralelos no se correlacionan"
+    },
+    "explanation": "Estos supuestos hacen posible la estimación formal del error y la confiabilidad.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "⚙️"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona el concepto con su interpretación práctica.",
+    "answer": {
+      "Confiabilidad": "Proporción de varianza verdadera sobre total",
+      "EEM": "Margen de error esperado para una puntuación individual",
+      "Tests paralelos": "Formas equivalentes del test con igual precisión"
+    },
+    "explanation": "Estos conceptos operativos permiten evaluar la precisión y estabilidad del test.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📊"
+  },
+  {
+    "type": "association",
+    "question": "Asocia cada fortaleza de la TCT con su característica principal.",
+    "answer": {
+      "Modelo simple": "Fácil de aplicar y comprender",
+      "Requiere menos muestra": "Adecuado para tamaños pequeños",
+      "Amplia trayectoria": "Base de miles de tests exitosos"
+    },
+    "explanation": "Las ventajas de la TCT explican su duradera influencia en la evaluación psicológica.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "🏗️"
+  },
+  {
+    "type": "association",
+    "question": "Vincula cada limitación de la TCT con su descripción.",
+    "answer": {
+      "Dependencia de la muestra": "Las estadísticas varían según el grupo evaluado",
+      "EEM constante": "El error se considera igual para todos",
+      "Análisis centrado en el test": "No modela ítem por ítem como la TRI"
+    },
+    "explanation": "Estas limitaciones motivaron el desarrollo de teorías más avanzadas como la TRI y la Teoría de la Generalizabilidad.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "hard",
+    "icon": "🚧"
+  }
+]

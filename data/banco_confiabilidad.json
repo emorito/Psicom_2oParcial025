@@ -1,0 +1,170 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "¿Quién fue el pionero en proponer la existencia del 'factor g' de inteligencia general?",
+    "options": ["Charles Spearman", "L. L. Thurstone", "Raymond Cattell", "Hans Eysenck"],
+    "answer": "Charles Spearman",
+    "explanation": "Spearman propuso el 'factor g' en 1904 como la fuente común de las correlaciones entre habilidades cognitivas.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "🧠"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Cuál es el punto de partida fundamental de un análisis factorial?",
+    "options": ["Matriz de correlaciones", "Varianza total", "Coeficientes alfa", "Análisis de regresión"],
+    "answer": "Matriz de correlaciones",
+    "explanation": "El análisis factorial comienza con una matriz de correlaciones entre variables observadas.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "📊"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué representa una carga factorial alta en una variable?",
+    "options": ["Alta correlación con un factor", "Error de medición elevado", "Baja comunalidad", "Autonomía del ítem"],
+    "answer": "Alta correlación con un factor",
+    "explanation": "Una carga factorial alta indica que la variable es un buen indicador del factor latente.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "📈"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué busca lograr el proceso de rotación en un análisis factorial?",
+    "options": ["Estructura simple", "Aumentar la varianza total", "Eliminar factores residuales", "Reducir comunalidades"],
+    "answer": "Estructura simple",
+    "explanation": "La rotación busca obtener una estructura simple que facilite la interpretación de los factores.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🎯"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué diferencia principal existe entre el AFE y el AFC?",
+    "options": ["El AFE explora y el AFC confirma", "El AFE usa teoría previa y el AFC no", "El AFE requiere hipótesis nula", "El AFE no usa correlaciones"],
+    "answer": "El AFE explora y el AFC confirma",
+    "explanation": "El análisis factorial exploratorio descubre estructuras, mientras que el confirmatorio prueba modelos teóricos.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🔍"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "¿Qué psicólogo propuso las 'habilidades mentales primarias'?",
+    "options": ["L. L. Thurstone", "Charles Spearman", "Raymond Cattell", "Howard Gardner"],
+    "answer": "L. L. Thurstone",
+    "explanation": "Thurstone propuso en 1938 que la inteligencia se compone de varias habilidades mentales primarias.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🧩"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "El análisis factorial busca explicar las correlaciones entre variables observadas mediante ________.",
+    "answer": "factores latentes",
+    "explanation": "Los factores latentes son las causas subyacentes que explican las correlaciones entre variables observadas.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "🪄"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "La proporción de varianza de una variable explicada por los factores comunes se llama ________.",
+    "answer": "comunalidad",
+    "explanation": "La comunalidad refleja cuánta varianza de una variable está asociada con los factores comunes.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "⚙️"
+  },
+  {
+    "type": "fill-in-the-blank",
+    "question": "El modelo factorial de Spearman postulaba la existencia de un único factor general denominado ________.",
+    "answer": "g",
+    "explanation": "El 'factor g' representaba la inteligencia general subyacente a todas las habilidades cognitivas.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "🧮"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona los conceptos básicos del análisis factorial con su definición correspondiente.",
+    "answer": {
+      "Variables observadas": "Mediciones directas que se analizan",
+      "Factores": "Constructos latentes que explican las correlaciones",
+      "Cargas factoriales": "Correlaciones entre variables y factores",
+      "Varianza única": "Parte no explicada por los factores comunes"
+    },
+    "explanation": "Cada término describe un componente esencial del modelo factorial y su función en el análisis.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "🔗"
+  },
+  {
+    "type": "association",
+    "question": "Asocia el tipo de análisis factorial con su propósito principal.",
+    "answer": {
+      "AFE": "Explorar la estructura subyacente",
+      "AFC": "Confirmar un modelo teórico",
+      "AFE y AFC": "Dos polos de un continuo metodológico"
+    },
+    "explanation": "El AFE y el AFC representan enfoques complementarios del mismo método estadístico.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "⚖️"
+  },
+  {
+    "type": "association",
+    "question": "Empareja cada investigador con su contribución principal al análisis factorial.",
+    "answer": {
+      "Spearman": "Factor g de inteligencia general",
+      "Thurstone": "Habilidades mentales primarias",
+      "Ferrando y Anguiano-Carrasco": "Continuo entre AFE y AFC"
+    },
+    "explanation": "Cada autor amplió la comprensión del análisis factorial desde perspectivas distintas.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "👥"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona la aplicación práctica del análisis factorial con su objetivo.",
+    "answer": {
+      "Reducción de datos": "Simplificar un gran número de variables",
+      "Desarrollo teórico": "Identificar constructos psicológicos subyacentes",
+      "Validación de instrumentos": "Comprobar validez de constructo"
+    },
+    "explanation": "El análisis factorial sirve para simplificar, teorizar y validar instrumentos psicométricos.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "medium",
+    "icon": "🎓"
+  },
+  {
+    "type": "association",
+    "question": "Vincula cada término con la analogía culinaria correspondiente.",
+    "answer": {
+      "Variables observadas": "Ingredientes visibles",
+      "Factores": "Sabores subyacentes",
+      "Cargas factoriales": "Contribución de cada ingrediente",
+      "Comunalidad": "Parte del sabor compartido"
+    },
+    "explanation": "La analogía culinaria ayuda a comprender la interacción entre variables y factores.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "easy",
+    "icon": "🍲"
+  },
+  {
+    "type": "association",
+    "question": "Relaciona cada característica con el enfoque factorial correspondiente.",
+    "answer": {
+      "Sin restricciones estructurales": "AFE",
+      "Modelo teórico especificado": "AFC",
+      "Descubrimiento de factores": "AFE",
+      "Validación de estructura": "AFC"
+    },
+    "explanation": "Las diferencias clave entre AFE y AFC radican en el grado de restricción del modelo.",
+    "source": "Apuntes-AnalisisFactorial.pdf",
+    "difficulty": "hard",
+    "icon": "📚"
+  }
+]

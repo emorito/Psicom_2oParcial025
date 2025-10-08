@@ -1,0 +1,72 @@
+[
+  {
+    "front": "¿Cuál es la ecuación central de la Teoría Clásica de los Tests?",
+    "back": "El modelo lineal clásico se expresa como X = T + E, donde X es la puntuación observada, T la puntuación verdadera y E el error de medición.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "📏"
+  },
+  {
+    "front": "¿Qué representa la puntuación verdadera (T)?",
+    "back": "Es el valor esperado de las puntuaciones observadas que una persona obtendría si realizara infinitas versiones paralelas del mismo test.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "🎯"
+  },
+  {
+    "front": "¿Qué significa que el error de medición tenga media cero?",
+    "back": "Significa que los errores son aleatorios y, en promedio, se anulan entre sí en una población, garantizando que no sesgan las puntuaciones.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "easy",
+    "icon": "⚖️"
+  },
+  {
+    "front": "¿Qué expresa el coeficiente de confiabilidad (ρ_XX’)?",
+    "back": "Mide la proporción de la varianza total de las puntuaciones que se debe a diferencias reales en el rasgo medido, y no al error aleatorio.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📊"
+  },
+  {
+    "front": "¿Cómo se interpreta un coeficiente de confiabilidad de 0.85?",
+    "back": "Indica que el 85% de la variación en las puntuaciones observadas proviene de diferencias verdaderas y el 15% restante del error de medición.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📈"
+  },
+  {
+    "front": "¿Qué es el Error Estándar de Medición (EEM)?",
+    "back": "Es la desviación estándar esperada de las puntuaciones observadas de un individuo, calculada a partir de la desviación estándar del test y su confiabilidad.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "📐"
+  },
+  {
+    "front": "¿Para qué sirve la fórmula de Spearman-Brown?",
+    "back": "Permite estimar cómo cambia la confiabilidad de un test si se modifica su longitud, prediciendo el efecto de agregar o eliminar ítems.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "🧮"
+  },
+  {
+    "front": "¿Cuál es una limitación importante del EEM en la TCT?",
+    "back": "El EEM se asume constante para todos los individuos, ignorando que la precisión puede variar según el nivel de habilidad o puntuación verdadera.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "medium",
+    "icon": "🚧"
+  },
+  {
+    "front": "¿Qué ventajas ofrece la TCT?",
+    "back": "Modelo simple, intuitivo y aplicable con muestras pequeñas; ha sido la base de miles de tests psicológicos de alta calidad durante décadas.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "hard",
+    "icon": "🏗️"
+  },
+  {
+    "front": "¿Cuáles son las principales limitaciones de la TCT?",
+    "back": "Depende de la muestra, asume error constante y analiza la puntuación total del test, no el comportamiento de cada ítem como la TRI.",
+    "source": "Apuntes-TCT.pdf",
+    "difficulty": "hard",
+    "icon": "🔍"
+  }
+]
